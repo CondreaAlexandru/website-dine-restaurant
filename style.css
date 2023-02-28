@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+button {
+    cursor: pointer;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    color: beige;
+    background:url(img/header-plate-removebg.png), linear-gradient(90deg, rgba(17,17,14,1) 40%, rgba(24,24,24,1) 40%);
+    background-repeat: no-repeat;
+}
+
+.title-logo {
+    margin-left: 140px;
+    font-size: 1.5rem;
+    padding: 20px 0px;
+}
+
+.info-header {
+    margin-left: 140px;
+    position: absolute;
+    top: 25%
+}
+
+.info-header h2 {
+    font-size: 3rem;
+}
+
+.info-header p {
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+
+.book-table {
+    padding: 20px 40px;
+    margin: 2rem 0px;
+    background-color: transparent;
+    color:white;
+    border-color: white;
+}
+
+
+.section {
+    display: flex;
+    width: 100%;
+    min-height: 500px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.section-one {
+    background: url(img/pattern-curve-top-right.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+.section-one .photo-section .img-section {
+    width: 400px;
+    position: relative;
+    top: -50px;
+}
+
+img {
+    width: 100%;
+}
+
+.photo-section, .descrition-section {
+    width: 50%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+.line {
+    width: 100px;
+    padding: 10px 0px;
+}
+.line img {
+    width: 100%;
+}
+
+
+.section-two {
+    background: url(img/pattern-curve-top-left.svg);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+}
+
+.section-two .photo-section .img-section {
+    width: 400px;
+    position: relative;
+    top: 50px;
+}
+.section-two .photo-section {
+    display: flex;
+}
+
+.section-two .pattern-lines {
+    width: 130px;
+    position: absolute;
+    right: 40px;
+}
+
+.section-three {
+    color: white;
+    background-color: rgba(17,17,14,1) ;
+}
+
+.food img {
+    width: 100px;
+}
+
+.food {
+    position: relative;
+    z-index: 2;
+}
+.photo-section ul li {
+    display: inline-flex;
+    margin: 20px 0px;
+    font-size: small;
+}
+
+.line-food {
+    position: relative;
+    left: -30px;
+    z-index: 1;
+}
+
+.section-four {
+    padding: 80px 0px;
+}
+.section-four .pattern-lines {
+    width: 130px;
+    position: absolute;
+    left: 130px;
+}
+
+.section-four .photo-section .img-section {
+    width: 400px;
+}
+
+.section-four .book-table {
+    color: white;
+    background-color: black;
+}
+
+.section-four ul li {
+    padding: 5px 0px;
+}
+
+.reservation {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/ready-bg-desktop.jpg);
+    background-repeat: no-repeat;
+}
+
+.reservation p {
+    font-size: 46px;
+    margin: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    padding: 50px 0px;
+}
+
+footer div:first-child {
+    padding-left: 140px;
+}
+
+footer div {
+    width: 33.33%;
+}
+
+.contact p ,.program p {
+    font-size: 10px;
+    letter-spacing: 4px;
+    line-height: 2.5;
+}
+
+
+/* Mobile
+
+@media only screen and (max-width: 600px) {
+    .photo-section, .descrition-section {
+        width: 100%;
+    }
+    .section {
+        display: grid;
+    }
+
+    .section-one .photo-section .img-section {
+        width: 250px;
+        position: relative;
+        top: 0px;
+        margin: 50px 0px;
+    }
+}  */
+
+
+/*Booking*/
+
+.booking-page {
+    position: relative;
+    width: 100%;
+    background-image: url(img/pattern-curve-bottom-right.svg);
+    background-repeat: no-repeat;
+}
+.booking-page section {display: flex;}
+
+.booking-lines img {
+    width: 150px;
+    position: relative;
+    top: 125px;
+    left: 700px;
+}
+input:focus{
+    outline: none;
+}
+
+.reservations {
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 50px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: -250px;
+    left: 100px;
+}
+
+.reservations input {
+    padding: 5px;
+    margin: 10px 0px;
+    border: none;
+    border-bottom: 1px solid #9E7E65;
+}
+
+.info-pers input, .people input, .make-reservation {
+    width: 100%;
+    text-align: center;
+}
+
+.people {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.make-reservation {
+    padding: 10px ;
+    color: white;
+    background-color: black;
+}
+
+#day {
+    border: 1px solid #9E7E65 ;
+    color: #9E7E65;
+    padding: 7px;
+    background-color: transparent;
+}
+
+.booking-lines ,.reservations {
+    width: 50%;
+}
