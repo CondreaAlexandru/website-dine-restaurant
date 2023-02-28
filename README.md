@@ -1,4 +1,4 @@
 # website-dine-restaurant
 website-dine-restaurant
-https://github.com/CondreaAlexandru/website-dine-restaurant/blob/main/Screenshot%20front%20page.png
-https://github.com/CondreaAlexandru/website-dine-restaurant/blob/main/Screenshot%20booking.png?raw=true
+https://raw.githubusercontent.com/CondreaAlexandru/website-dine-restaurant/main/Screenshot%20front%20page.png
+https://raw.githubusercontent.com/CondreaAlexandru/website-dine-restaurant/main/Screenshot%20booking.png
